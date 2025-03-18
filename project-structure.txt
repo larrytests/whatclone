@@ -1,0 +1,41 @@
+src/
+├── components/
+│   ├── common/
+│   │   ├── Avatar.js
+│   │   ├── Badge.js
+│   │   └── Button.js
+│   ├── chat/
+│   │   ├── MessageBubble.js
+│   │   ├── ChatInput.js
+│   │   └── ScrollButtons.js
+│   └── contact/
+│       ├── ContactItem.js
+│       └── ContactList.js
+├── screens/
+│   ├── chat/
+│   │   ├── ChatScreen.js
+│   │   └── CallScreen.js
+│   └── contact/
+│       └── ContactListScreen.js
+├── navigation/
+│   ├── NavigationStack.js
+│   └── SplitView.js
+├── services/
+│   ├── chat/
+│   │   ├── ChatService.js
+│   │   └── MessageService.js
+│   ├── auth/
+│   │   └── AuthService.js
+│   └── api/
+│       └── FirebaseService.js
+├── contexts/
+│   ├── ChatContext.js
+│   └── ThemeContext.js
+├── hooks/
+│   ├── useChat.js
+│   ├── useMessages.js
+│   └── useTheme.js
+├── utils/
+│   ├── constants.js
+│   └── helpers.js
+└── App.js
